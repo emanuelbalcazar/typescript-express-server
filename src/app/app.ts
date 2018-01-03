@@ -3,7 +3,7 @@ import * as express from 'express';
 import * as bodyParser from 'body-parser';
 import * as config from '../config/config';
 
-const app = express();
+const app: express.Application = express();
 
 // configure all enviroments.
 app.use(bodyParser.json());
