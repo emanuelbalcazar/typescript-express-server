@@ -17,4 +17,4 @@ app.set("port", config.PORT);
 import { Routes } from "../routes/routes";
 app.use('/api', Routes);
 
-module.exports = app;
+export const App = app;
